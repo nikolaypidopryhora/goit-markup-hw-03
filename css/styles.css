@@ -258,6 +258,7 @@ a {
 
 .header-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .contact-menu {
