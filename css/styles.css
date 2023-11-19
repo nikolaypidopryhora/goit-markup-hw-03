@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFF;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo .logo-header {
+    color: #2E2F42;
+}
+
+.menu-link {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contact-data {
+    font-style: normal;
+}
+
+.contact {
+    color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+.hero-section {
+    background: #2E2F42;
+    text-align: center;
+}
+
+.hero-motto {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em
+}
+
+.order-btn {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFF;
+    line-height: 1.5
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background: #404BBF;
+} 
+
+.section-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.teammate-name,
+.benefit-name,
+.portfolio-item-name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.teammate-pos {
+    font-size: 16px;
+}
+
+.page-footer {
+    background: #2E2F42; 
+    color: #FFF;
+}
+
+.logo .logo-footer {
+    color: #f4f4fd;
+}
+
+.text-footer {
+    color: #F4F4FD;
+}
