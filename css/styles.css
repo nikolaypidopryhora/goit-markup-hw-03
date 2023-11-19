@@ -1,3 +1,32 @@
+/* ============== COMMON STYLES ============== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol,
+li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -7,17 +36,16 @@ body {
     background-color: #FFF;
 }
 
-button {
-    cursor: pointer;
-}
-
 a {
     text-decoration: none;
 }
 
-ul,
-li {
-    list-style-type: none;
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .logo {
@@ -28,6 +56,7 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo .logo-header {
@@ -37,6 +66,9 @@ li {
 .menu-link {
     color: #2E2F42;
     font-weight: 500;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -50,6 +82,9 @@ li {
 
 .contact {
     color: #434455;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contact:hover,
@@ -60,6 +95,7 @@ li {
 .hero-section {
     background: #2E2F42;
     text-align: center;
+    height: 600px;
 }
 
 .hero-motto {
@@ -67,7 +103,11 @@ li {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .order-btn {
@@ -75,7 +115,11 @@ li {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFF;
-    line-height: 1.5
+    line-height: 1.5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .order-btn:hover,
@@ -98,6 +142,8 @@ li {
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .teammate-name,
@@ -108,10 +154,6 @@ li {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.teammate-pos {
-    font-size: 16px;
 }
 
 .page-footer {
@@ -125,4 +167,99 @@ li {
 
 .text-footer {
     color: #F4F4FD;
+}
+
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 40px;
+}
+
+.benefits-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.benefit-desc {
+    margin-top: 8px;
+    max-width: 264px;
+}
+
+.team-list {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 72px;
+}
+
+.teammate-name {
+    margin-top: 32px;
+}
+
+.teammate-pos {
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.team-item {
+    text-align: center;
+}
+
+.portfolio-list {
+    margin-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-item-name {
+    margin-top: 32px;
+    padding: 0 16px;
+}
+
+.portfolio-item-desc {
+    margin-bottom: 32px;
+    padding: 0 16px;
+}
+
+.portfolio-item {
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+    width: calc((100% - 48px) / 3);;
+    height: 420px;
+}
+
+.portfolio-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-footer {
+    width: 264px;
+    margin-top: 16px;
 }
