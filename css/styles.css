@@ -205,8 +205,11 @@ a {
 }
 
 .benefit-desc {
-    margin-top: 8px;
     max-width: 264px;
+}
+
+.benefit-name {
+    margin-bottom: 8px;
 }
 
 .team-list {
